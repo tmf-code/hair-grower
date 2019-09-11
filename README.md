@@ -1,4 +1,4 @@
-# p5.js + ES6 + npm boilerplate
+# p5.js + ES6 + TS + npm boilerplate
 
 This is a boilerplate (project template) created for junior/beginner front-end developers.
 It containes the basic files and tools for developing a project with [ES6](https://codeburst.io/es6-tutorial-for-beginners-5f3c4e7960be), [npm](https://www.npmjs.com/) and the [p5.js](https://p5js.org/) library.
@@ -8,7 +8,7 @@ Don't hesitate to contact me or to open an issue on the [issues](https://github.
 
 Summary:
 
-- [p5.js + ES6 + npm boilerplate](#p5js--es6--npm-boilerplate)
+- [p5.js + ES6 + TS + npm boilerplate](#p5js--es6--ts--npm-boilerplate)
   - [Installation](#installation)
     - [Requirements](#requirements)
   - [Usage](#usage)
@@ -16,6 +16,7 @@ Summary:
     - [Production](#production)
   - [What is p5.js](#what-is-p5js)
   - [What is ES6](#what-is-es6)
+  - [What is TS](#what-is-ts)
   - [Give me a break](#give-me-a-break)
   - [Using a boilerplate](#using-a-boilerplate)
   - [What is npm](#what-is-npm)
@@ -96,6 +97,12 @@ ES6 is the abbreviation of ECMAScript 6, later renamed to ECMAScript 2015 (ES201
 [The difference between ES5 and ES6](https://codeburst.io/es5-vs-es6-with-example-code-9901fa0136fc).
 
 The problem today is that some browsers cannot understand some parts of ES6, which is a pain - because ES6 has great [syntax](https://www.w3schools.com/js/js_syntax.asp). You can import/export variables from/to other JavaScript files, import npm modules, etc. That is why we need to transpile ES6 to ES5 if we want our code to run in all browsers. This can be done manually on sites like [babeljs.io/repl](https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&code_lz=MYewdgzgLgBAtgVwDZQJYAckE8YF4YAUAhgDQwBGAlHgHwxEwBUFAUC4ihtgQExk-UgA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&lineWrap=false&presets=es2015%2Cstage-0%2Cstage-1%2Cstage-2%2Cstage-3&prettier=false&targets=&version=6.26.0&envVersion=) or programmatically with tools like [Babel](https://babeljs.io/).
+
+## What is TS
+
+TS is the abbreviation for [TypeScript](https://www.typescriptlang.org/), an open source langauge developed by Microsoft. It sits on top of javascript had has very similar syntax, and is referred to as a static typed langed.
+
+We use typescript in modern projects because it helps to ensure that we don't make errors with data-types during coding as javascript is a dynamically typed lanaguage.
 
 ## Give me a break
 
