@@ -6,7 +6,7 @@ This is a boilerplate (project template) created for junior/beginner front-end d
 It containes the basic files and tools for developing a project with [ES6](https://codeburst.io/es6-tutorial-for-beginners-5f3c4e7960be), [npm](https://www.npmjs.com/) and the [p5.js](https://p5js.org/) library.
 Don't hesitate to contact me or to open an issue on the [issues](https://github.com/woudsma/p5js-es6-boilerplate/issues) page if you run into trouble.
 
-**[DEMO](https://p5js-demo.omnio.studio/)**
+**[DEMO](https://p5js-demo.omnio.studio/) from the original JS version**
 
 Summary:
 
