@@ -1,10 +1,10 @@
-// Import an installed module from npm
-import p5 from "p5";
-// Import a variable from a javascript file from the project folder
-import { mySketch } from "./sketch";
 // Import css styles in javascript
 import "./index.css";
 
-// Initializing p5.js
-// p5 requires two arguments: new p5(sketch function, target DOM element)
-new p5(mySketch, document.getElementById("sketch")!);
+import { p5Instance } from "./p5Instance";
+import { hairGrid } from "./HairGrid";
+
+p5Instance.draw = () => {
+  p5Instance.background(255);
+  hairGrid.draw();
+};
